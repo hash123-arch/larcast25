@@ -1,9 +1,12 @@
-@extends('layouts.layout')
+@extends('layouts.app')
 
 @section('content')
-
+<br/>
     <div class="container">
+        
+
         <center><img src="/img/pizza.jpg" alt="" class="img-thumbnail mt-5"/></center>
+
     <h1 class="text-center mt-5 text-danger display-4">My Pizzas the greatest pizzas</h1>
 
    

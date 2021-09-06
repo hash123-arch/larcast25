@@ -26,20 +26,18 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                  <a class="nav-link text-white" href="/">Home</a>
-                  <a class="nav-link text-white" href="/pizzas">About</a>
-                  <a class="nav-link text-white" href="#">Pricing</a>
-                 
+                
+                  <a href="/login" class="nav-link text-white">Login</a>
+                  <a href="/register" class="nav-link text-white">Register</a>
                 </div>
               </div>
                 
             </div>
           </nav>
+          <div class="container">
         @yield('content')
+          </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <footer>
-           CopyRight 2021 Pizza Great
-        </footer>
+       
     </body>
     </html>
