@@ -11,5 +11,9 @@ class Pizza extends Model // we name the model the singular what the db table is
 {
     use HasFactory;
 
-    
+    protected $casts = [
+
+        'toppings' => 'text'
+
+    ];
 }

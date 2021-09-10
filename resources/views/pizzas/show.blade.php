@@ -12,7 +12,21 @@
 
     <p class="text-center mt-2 base text-success">Extra Toppings :: 
         
+    <ul class="text-center list-group">
+        
+        
+
+            @foreach($pizza->toppings as $topping )
+
+            <li class="list-group-item">
+
+                {{$topping}}
+
+            </li>
+
+            @endforeach
     
+    </ul>
 
     </p>
 
