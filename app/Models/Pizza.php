@@ -13,7 +13,7 @@ class Pizza extends Model // we name the model the singular what the db table is
 
     protected $casts = [
 
-        'toppings' => 'text'
+        'toppings' => 'array'
 
     ];
 }
